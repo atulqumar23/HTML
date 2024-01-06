@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- This is a checkbox butten-->
+    <form action="server">
+        <input type="checkbox" id="age" name="age">
+        <label for="age"> I am 18+</label>
+
+    <!-- This is a Radio butten-->
+    <div>
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple"> apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango"> mango</label>
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="banana"> banana </label>
+    </div>
+    <br/>
+
+<!-- Checkbox Groping-->
+    <div>
+      Choose your subjects:
+      <input type="checkbox" id="hindi" name="subject" value="hi"/>
+      <label for="hindi"> Hindi</label>
+      <input type="checkbox" id="english" name="subject" value="eng"/>
+      <label for="english"> English</label>
+      <input type="checkbox" id="math" name="subject" value="math"/>
+      <label for="math"> math</label>
+      <input type="checkbox" id="Science" name="subject" value="sci"/>
+      <label for="science"> Science</label>
+      <input type="checkbox" id="Computer" name="subject" value="com"/>
+      <label for="computer"> Computer</label>
+    </div>
+
+    <div>
+        Choose your profesesion
+        <select name="profession " id="profession ">
+        <option>Select your option </option>
+        <option value="stu" selected>Student</option>
+        <option value="dev"> Developer</option>
+        </select>
+    </div>
+
+    <!-- this is Input Range-->
+    <label for="vol">Select your value lavel: </label>
+    <input type="range" id="vol" man="0" max="100" name="vol" step="10" valu="60">
+    <br/>
+
+    <!-- this is text Area-->
+    <label for="feedback"> Please give your valuable feedback</label>
+    <textarea id="feedback" name="feedback" placeholder=" write your feedback here"></textarea>
+
+    <button> Submit</button>
+    </form>
+</body>
+</html>
